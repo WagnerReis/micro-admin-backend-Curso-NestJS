@@ -8,7 +8,7 @@ import { JogadorSchema } from './interfaces/jogadores/jogador.schema';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://admin:XzpOKbZcTqZohu8r@cluster0.slukmih.mongodb.net/sradminbackend?retryWrites=true&w=majority',
+      'mongodb+srv://admin:XzpOKbZcTqZohu8r@cluster0.slukmih.mongodb.net/sradmbackend?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
